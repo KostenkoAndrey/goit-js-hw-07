@@ -39,7 +39,8 @@ const pict = images.forEach( item => {
   const img = document.createElement("img");
   img.src = item.url;
   img.alt = item.alt;
-  img.width = 300;
+  img.width = 360;
+  img.height = 300;
   list.prepend(img);
   gallery.prepend(list);
 });            

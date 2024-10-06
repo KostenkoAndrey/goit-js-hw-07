@@ -223,24 +223,54 @@
 //   textInput.value = "";
 // });
 
-const textInput = document.querySelector(".text-input");
-const setBtn = document.querySelector(`[data-action="set"]`); 
-const remBtn = document.querySelector(`[data-action="remove"]`);
+// const textInput = document.querySelector(".text-input");
+// const setBtn = document.querySelector(`[data-action="set"]`); 
+// const remBtn = document.querySelector(`[data-action="remove"]`);
 
-setBtn.addEventListener("click", () => {
-textInput.focus()});  
+// setBtn.addEventListener("click", () => {
+// textInput.focus()});  
 
-remBtn.addEventListener("click", () => {
-textInput.blur();
-    });
+// remBtn.addEventListener("click", () => {
+// textInput.blur();
+//     });
 
-textInput.addEventListener("focus", () =>{
-textInput.value = "this input";
-});
+// textInput.addEventListener("focus", () =>{
+// textInput.value = "this input";
+// });
 
-textInput.addEventListener("blur", () => {
-      textInput.value = "blur working";
-    });
+// textInput.addEventListener("blur", () => {
+//       textInput.value = "blur working";
+//     });
 
-    console.log(document.activeElement.textInput);
-    
+//     console.log(document.activeElement.textInput);
+
+
+// const list = document.getElementById("list");
+// const btn = document.querySelector("button");
+// btn.addEventListener("click", addItem);
+// let count = 0;
+// function addItem() {
+//   count++;
+//   const item = document.createElement("li");
+//   item.textContent = `newElement${count}`;
+//   list.append(item);
+// };
+
+
+// Напишіть функцію, яка перемикає видимість елемента <div> з ідентифікатором "content" при натисканні кнопки.
+
+// Завдання:
+// При натисканні кнопки показувати або приховувати блок.
+
+// const content = document.getElementById("content");
+// const btn = document.querySelector(".btn");
+
+// btn.addEventListener("click", toggleVisibility);
+
+
+// function toggleVisibility(){
+//   content.classList.add("hide");
+//   const item = document.querySelector(".hide");
+//   item.style.opacity = 0;
+//   content.classList.toggle(".hide");
+// };
